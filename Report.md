@@ -16,7 +16,7 @@ Accept-Encoding: gzip
 User-Agent: okhttp/3.12.0
 Authorization: Token Here
 ~~~
-* ヘッダーは全て正しく記入
+* Authorization以外記入不要
 
 # Body
 ~~~
