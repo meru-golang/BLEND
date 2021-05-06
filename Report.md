@@ -11,7 +11,7 @@ https://blend.school/api/student/health_report/regist_answer
 ~~~
 Host: blend.school
 Content-Type: application/json
-Content-Length: 48
+Content-Length: 
 Accept-Encoding: gzip
 User-Agent: okhttp/3.12.0
 Authorization: Token Here
