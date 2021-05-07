@@ -4,10 +4,13 @@ class config:
     host_url = "https://blend.school/api"
 
     #ログイン
-    login = "/login"
+    login = host_url + "/login"
 
     #報告
-    report = "/student/health_report/regist_answer"
+    report = host_url + "/student/health_report/regist_answer"
+
+    #アンケート
+    answer = host_url + "/student/scom/read_answer"
 
 #ヘッダー関連
 class headers:
@@ -15,10 +18,10 @@ class headers:
     host = "blend.school"
 
     #User-Agent
-    user = "okhttp/3.12.0"
+    UA = "okhttp/3.12.0"
 
     #Accept-Encoding
-    Accept-Encoding = "gzip"
+    Accept = "gzip"
 
     #Content-Type
     Content-Type = "application/json; charset=UTF-8"
@@ -28,3 +31,6 @@ class headers:
 
     #Content-Length報告用
     length-report = "74"
+
+    #Content-Lengthアンケート用
+    length-answer = "324"
