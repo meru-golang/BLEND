@@ -20,6 +20,7 @@ BLENDとは、モチベーションワークス株式会社によって運営さ
 # BLENDの通信
 * [ログイン](https://github.com/meru-golang/BLEND/blob/main/Login.md)
 * [健康報告](https://github.com/meru-golang/BLEND/blob/main/Report.md)
+* [アンケート](https://github.com/meru-golang/BLEND/blob/main/Answer.md)
 
 
 # 注意点
