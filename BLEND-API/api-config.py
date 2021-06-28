@@ -9,9 +9,6 @@ class config:
     #報告
     report = host_url + "/student/health_report/regist_answer"
 
-    #アンケート
-    answer = host_url + "/student/scom/read_answer"
-
 #ヘッダー関連
 class headers:
     #Host
@@ -24,13 +21,10 @@ class headers:
     Accept = "gzip"
 
     #Content-Type
-    Content-Type = "application/json; charset=UTF-8"
+    ContentType = "application/json; charset=UTF-8"
 
     #Content-Lengthログイン用
-    length-login = "62"
+    length_login = "62"
 
     #Content-Length報告用
-    length-report = "74"
-
-    #Content-Lengthアンケート用
-    length-answer = "324"
+    length_report = "74"
